@@ -1,0 +1,7 @@
+# JS, node, npm stuff
+node_modules
+dist
+
+# OS related
+.DS_STORE
+desktop.ini

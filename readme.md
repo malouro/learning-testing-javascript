@@ -1,0 +1,1 @@
+Following Kent C. Dodds's Pro Testing course @ [https://testingjavascript.com/](https://testingjavascript.com/)
