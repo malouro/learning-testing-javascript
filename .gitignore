@@ -1,3 +1,6 @@
 # OS related
 .DS_STORE
 desktop.ini
+
+# node & npm
+node_modules

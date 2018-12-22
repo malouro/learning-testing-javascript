@@ -1,0 +1,22 @@
+{
+  "name": "testing-javascript",
+  "version": "0.0.1",
+  "description": "Following along with testingjavascript.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malouro/learning-testing-javascript.git"
+  },
+  "author": "Michael Louro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malouro/learning-testing-javascript/issues"
+  },
+  "homepage": "https://github.com/malouro/learning-testing-javascript#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
