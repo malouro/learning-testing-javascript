@@ -4,7 +4,8 @@
   "description": "Following along with testingjavascript.com",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ./02-static-testing/src/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/malouro/learning-testing-javascript#readme",
   "devDependencies": {
+    "eslint": "^5.10.0",
     "jest": "^23.6.0"
   }
 }
