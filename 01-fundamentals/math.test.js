@@ -1,17 +1,17 @@
-const { sum, subtract, asyncSum, asyncSubtract } = require('../math');
+const { sum, subtract, asyncSum, asyncSubtract } = require("../math");
 
-test('sum function adds numbers together', () => {
+test("sum function adds numbers together", () => {
   expect(sum(3, 7)).toBe(10);
 });
 
-test('subtract function subtracts numbers from each other', () => {
+test("subtract function subtracts numbers from each other", () => {
   expect(subtract(7, 3)).toBe(4);
 });
 
-test('asyncSum function adds numbers together, asynchronously', async () => {
+test("asyncSum function adds numbers together, asynchronously", async () => {
   expect(await asyncSum(3, 7)).toBe(10);
 });
 
-test('asyncSubtract function adds numbers together, asynchronously', async () => {
+test("asyncSubtract function adds numbers together, asynchronously", async () => {
   expect(await asyncSubtract(7, 3)).toBe(4);
 });
