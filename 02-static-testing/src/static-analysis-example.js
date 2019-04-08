@@ -2,7 +2,7 @@ const name = 'Freddy';
 typeof name === 'string';
 
 if (!('serviceWorker' in navigator)) {
-  // old browser ;~;
+	// old browser ;~;
 }
 
 const greeting = 'hello';

@@ -1,4 +1,9 @@
-const { sum, subtract, asyncSum, asyncSubtract } = require('../math');
+import {
+  sum,
+  subtract,
+  asyncSum,
+  asyncSubtract
+} from '../common/math';
 
 test('sum function adds numbers together', () => {
   expect(sum(3, 7)).toBe(10);

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./02-static-testing/src/"
+    "lint": "eslint ./02-static-testing/src/",
+    "format": "npx prettier --write \"./02-static-testing/src/*.+(js|jsx)\""
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,11 @@
   },
   "homepage": "https://github.com/malouro/learning-testing-javascript#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-jest": "^24.7.1",
+    "babel-polyfill": "^6.26.0",
     "eslint": "^5.10.0",
-    "jest": "^23.6.0"
+    "jest": "^24.7.1"
   }
 }
