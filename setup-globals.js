@@ -5,7 +5,7 @@ function expect(actual) {
         throw new Error(`${actual} is not equal to ${expected}`);
       }
     }
-  }
+  };
 }
 
 async function test(title, cb) {
