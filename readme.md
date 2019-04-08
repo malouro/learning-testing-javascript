@@ -1,9 +1,17 @@
+## What is this?
 
-Following Kent C. Dodds's Pro Testing course @ [https://testingjavascript.com/](https://testingjavascript.com/)
+This is a collection of code & notes while going through Kent C. Dodds's Pro Testing course at: [https://testingjavascript.com/](https://testingjavascript.com/)
 
-### Current progress:
+Some things are a little different -- mostly updating to more recent versions of certain packages (like Jest, Babel, etc.) -- but otherwise the tutorials and examples are followed pretty closely.
 
-Ch. 2 - Static Analysis
+I might also add more test files as I start messing around and experimenting.
 
-> Step 3. Configure Prettier
-> > Still need to look into Prettier and its config files. Though for now I have an `npm run format` working
+Cheers, fellow testers 🍻!
+
+## Current progress:
+
+> https://testingjavascript.com/lessons/eslint-disable-unnecessary-eslint-stylistic-rules-with-eslint-config-prettier
+
+
+## Notes
+
