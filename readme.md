@@ -22,7 +22,7 @@ A model denoting different categories of test and their priority, weight and dis
 Here's what it looks like:
 
 ```ascii
-    |''''''''''|    End-to-end
+    |''''''''''|    End-to-end   💰 ↑ 🐢
  |''------------''|
   |              |  Integration
    \            /
@@ -30,7 +30,7 @@ Here's what it looks like:
        |    |       Unit
        }----{
       /      \      Static
-   [::........::]
+   [::........::]                🆓 ↓ 🏎
 ```
 
 The idea is that the value of return compared to cost from static analysis and integration testing is great, while from end-to-end and unit testing is good.
