@@ -22,7 +22,7 @@ A model denoting different categories of test and their priority, weight and dis
 Here's what it looks like:
 
 ```ascii
-    |''''''''''|    End-to-end    ↑ 🐢 ↑ 💪
+    |''''''''''|    End-to-end   💸 ↑ 🐢 ↑ 💪
  |''------------''|
   |              |  Integration
    \            /
